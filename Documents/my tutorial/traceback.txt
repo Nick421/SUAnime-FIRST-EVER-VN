@@ -1,0 +1,23 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 524, in script
+    while x < 1s0:
+SyntaxError: unexpected EOF while parsing (script.rpy, line 524)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 524, in script
+    while x < 1s0:
+  File "/Applications/renpy-6.99.12.4-sdk/renpy/ast.py", line 1599, in execute
+    if renpy.python.py_eval(self.condition):
+  File "/Applications/renpy-6.99.12.4-sdk/renpy/python.py", line 1748, in py_eval
+    code = py_compile(code, 'eval')
+  File "/Applications/renpy-6.99.12.4-sdk/renpy/python.py", line 584, in py_compile
+    raise e
+SyntaxError: unexpected EOF while parsing (script.rpy, line 524)
+
+Darwin-17.2.0-x86_64-i386-64bit
+Ren'Py 6.99.12.4.2187
+my tutorial 1.0
